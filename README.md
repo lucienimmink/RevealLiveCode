@@ -8,7 +8,7 @@ Copy the files `editor.js` and/or `editor.esm.js` into the plugin folder of your
 
 ```html
 <script type="module">
-pluginimport Editor from './plugin/editor/editor.esm.js';
+import Editor from './plugin/editor/editor.esm.js';
 
 Reveal.initialize({
     ...,
