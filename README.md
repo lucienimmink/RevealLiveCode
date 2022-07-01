@@ -8,7 +8,7 @@ Copy the files `plugin.js` into the plugin folder of your reveal.js presentation
 
 ```html
 <script type="module">
-import Editor from './plugin/editor/editor.esm.js';
+pluginimport Editor from './plugin/editor/editor.esm.js';
 
 Reveal.initialize({
     ...,
