@@ -4,7 +4,7 @@ A plugin for [Reveal.js](https://github.com/hakimel/reveal.js) allowing to do li
 
 ## Installation
 
-Copy the files `plugin.js` into the plugin folder of your reveal.js presentation, i.e. ```plugin/editor``` and load the plugin as shown below.
+Copy the files `editor.js` and/or `editor.esm.js` into the plugin folder of your reveal.js presentation, i.e. ```plugin/editor``` and load the plugin as shown below.
 
 ```html
 <script type="module">
@@ -33,6 +33,14 @@ Both the HTML and markdown synthax is supported. Code highlighted using hljs can
 <div data-edit>
 <!-- repeat code or leave empty; this element will be populated when you change the code-->
 </div>
+```
+
+## Compilation
+
+If you want to change the source use `plugin.js` and add it to the build process of [Reveal.js](https://github.com/hakimel/reveal.js) by appending it to the `plugins` task:
+
+```js
+{ name: 'Editor', input: './plugin/editor/plugin.js', output: './plugin/editor/editor' },
 ```
 
 ## Examples
