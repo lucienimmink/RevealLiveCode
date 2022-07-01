@@ -29,7 +29,7 @@ Both the HTML and markdown synthax is supported. Code highlighted using hljs can
   }
 </style>
 <hello-world type="amazing">Light DOM fallback</hello-world>
-</pre></code>
+</code></pre>
 <div data-edit>
 <!-- repeat code or leave empty; this element will be populated when you change the code-->
 </div>
